@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Forms</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    <style>
+        } h1 {
+            text-align: center;
+            font-weight: normal;
+        } form {
+            width: 600px;
+            min-height: 600px;
+            padding: 24px;
+            background: lightblue;
+            margin: 36px auto;
+            border: 1px solid cornflowerblue;
+            box-shadow: 2px 3px 6px cornflowerblue;
+            border-radius: 18px;
+            font: 14pt/1.2em Candara;
+        } fieldset {
+            margin-top: 18px;
+        } #personal-input, #submit {
+            width: 100%;
+            height: 24px;
+            margin-bottom: 12px;
+        } input[type="text"] {
+            width: 98%;
+            font: 14pt/1.4em Candara;
+            margin-top: 6px;
+        } input[type="submit"] {
+            width: 100px;
+            height: 40px;
+            background: lightsteelblue;
+            margin: 6px auto;
+            display: block;
+            border-radius: 6px;
+            border: 1px solid dimgray;
+            font: 14pt/1.4em Candara;
+        }
+    </style>
+    </head>
+    <body>
+        <form action="https://formsubmit.co/politico@unlv.nevada.edu" method="post">
+        <h1>Commission Form</h1>
+        <input type="text" /><br/>
+        <label>Name</label><br/>
+        <input type="text"><br/>
+        <label>Email</label><br/>
+        <fieldset>
+        <legend>Size</legend>
+        <input type="radio">
+        <label>Headshot/Bust</label><br/>
+        <input type="radio">
+        <label>Halfbody</label><br/>
+        <input type="radio">
+        <label>Fullbody</label><br/>
+        <input type="radio">
+        <label>Fullbody w/ background</label>
+        </fieldset>
+        <fieldset>
+        <legend>Completion</legend>
+        <input type="checkbox">
+        <label>Sketch</label><br/>
+        <input type="checkbox">
+        <label>Flat Color</label><br/>
+        <input type="checkbox">
+        <label>Simple Shading</label><br/>
+        <input type="checkbox">
+        <label>Complex Shading</label><br/>
+        </fieldset>
+        <fieldset>
+        <legend>Time Frame</legend>
+        <select>
+            <option>1 month</option>
+            <option>3 months</option>
+            <option>6 months</option>
+            <option>Not sure</option>
+        </select>
+        </fieldset>
+        <label>Message</label><br/>
+        <textarea rows="5" cols="79">
+        </textarea>
+        <input type="submit" />
+        </form>
+    </body>
+</html>
