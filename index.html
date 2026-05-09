@@ -1,80 +1,77 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-    } @font-face {
-        font-family: Candara;
-        src: url("Candara.ttf");
-    } h1 {
-        font: 48pt/1.4em Satisfy;
-        text-align: center;
-        text-shadow: 1px 2px 3px rgba(0,176,173,1.00);
-        margin: 24px 0;
-    } #textbox {
-        width: 1024px;
-        height: 928px;
-        margin: 0 auto;
-        background: whitesmoke;
-        box-shadow: 2px 3px 6px gainsboro;
-        border: 1px solid gainsboro;
-        display: flex;
-        justify-content: center;
-    } figure {
-        margin: 24px;
-    } img, .zoom {
-        width: 200px;
-        height: 200px;
-        border: 1px solid gray;
-        box-shadow: 2px 3px 6px gray;
-        transition: transform 0.5s;
-    } figcaption {
-        font: 12pt/1.4em Candara;
-        margin-top: 3px;
-    } .zoom {
-        background: url("thumb-tulip.jpg");
-        background-size: 100%;
-        background-position: center;
-    } img:hover {
-        transform: scale(1.03);
-        transition: transform 0.5s;
-    } .zoom:hover {
-        background-size: 105%;
-        transition: background-size 0.5s;
-    }
-</style>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <style>
+        body {
+            background: whitesmoke;
+            } #page {
+                width: 1024px;
+                height: 1228px;
+                background: white;
+                margin: 0 auto;
+                border: 1px solid dimgray;
+                box-shadow: 2px 3px 6px dimgray;
+            } table {
+                margin: 48px auto;
+                font: 14pt/1.4em Candara;
+                border-collapse: collapse;
+                border: 1px solid dimgray;
+                box-shadow: 2px 3px 6px dimgray;
+                background: url(WolfQuest.jpg);
+                background-size: cover;
+                background-position-x: center;
+            } td, th {
+                padding: 6px 12px;
+            } tr:nth-child(odd) {
+                background: rgba(255, 255, 255, 0.70);
+            } tr:nth-child(even) {
+                background: rgba(255, 255, 255, 0.40)
+            }
+        </style>
+    </head>
+    <body>
+         <div id="page">
+             <table>
+                 <tr>
+                     <th colspan="5">My WolfQuest Wolves</th>
+                 </tr>
+                 <tr>
+                     <th>Name</th>
+                     <th>Map</th>
+                     <th>Difficulty</th>
+                     <th>Iron Wolf</th>
+                     <th>Year</th>
+                 </tr>
+                 <tr>
+                     <td>Whiskey</td>
+                     <td>Lost River</td>
+                     <td>Accurate</td>
+                     <td>On</td>
+                     <td>5</td>
+                 </tr>
+                 <tr>
+                     <td>Paradox</td>
+                     <td>Slough Creek</td>
+                     <td>Accurate</td>
+                     <td>On</td>
+                     <td>2</td>
+                 </tr>
+                 <tr>
+                     <td>Buckwheat</td>
+                     <td>Tower Fall</td>
+                     <td>Unforgiving</td>
+                     <td>On</td>
+                     <td>1</td>
+                 </tr>
+             
+             </table>
 
-<body>
-    <h1>Portfolio</h1>
-    <div id="textbox">
-        <!-- Leaves photo -->
-        <figure>
-            <a href="Leon-print.jpg">  </a>
-            <img src="Leon%20thumbnail.png"/>
-            <figcaption>
-            Leon S. Kennedy.
-            </figcaption>
-        </figure>
-                <figure>
-            <a href="Kaito.png">  </a>
-            <img src="thumbKaito.png"/>
-            <figcaption>
-            Kaito in Illustrator.
-            </figcaption>
-        </figure>
-                <figure>
-            <a href="FORASKEN.png">  </a>
-            <img src="thumbFORSAKEN.png"/>
-            <figcaption>
-            Book cover.
-            </figcaption>
-        </figure>
-    </div>
-</body>
+        
+        </div>
+
+    </body>
 </html>
