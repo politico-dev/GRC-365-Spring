@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <style>
+        body {
+            background: whitesmoke;
+            } #page {
+                width: 1024px;
+                height: 1228px;
+                background: white;
+                margin: 0 auto;
+                border: 1px solid dimgray;
+                box-shadow: 2px 3px 6px dimgray;
+            } table {
+                margin: 48px auto;
+                font: 14pt/1.4em Candara;
+                border-collapse: collapse;
+                border: 1px solid dimgray;
+                box-shadow: 2px 3px 6px dimgray;
+                background: url(WolfArt.jpg);
+                background-size: cover;
+                background-position-x: center;
+            } td, th {
+                padding: 6px 12px;
+            } tr:nth-child(odd) {
+                background: rgba(255, 255, 255, 0.70);
+            } tr:nth-child(even) {
+                background: rgba(255, 255, 255, 0.40)
+            } button {
+                width: 100px;
+                height: 40px;
+                background: lightgreen;
+                border-radius: 6px;
+                display: block;
+                margin: 24px auto;
+            }
+        </style>
+        <script language="javascript"
+        type="text/javascript">
+            function printPage() {
+                window.print();
+            }
+        </script>
+    </head>
+    <body>
+         <div id="page">
+             <table>
+                 <tr>
+                     <th colspan="5">My WolfQuest Wolves</th>
+                 </tr>
+                 <tr>
+                     <th>Name</th>
+                     <th>Map</th>
+                     <th>Difficulty</th>
+                     <th>Iron Wolf</th>
+                     <th>Year</th>
+                 </tr>
+                 <tr>
+                     <td>Whiskey</td>
+                     <td>Lost River</td>
+                     <td>Accurate</td>
+                     <td>On</td>
+                     <td>5</td>
+                 </tr>
+                 <tr>
+                     <td>Paradox</td>
+                     <td>Slough Creek</td>
+                     <td>Accurate</td>
+                     <td>On</td>
+                     <td>2</td>
+                 </tr>
+                 <tr>
+                     <td>Buckwheat</td>
+                     <td>Tower Fall</td>
+                     <td>Unforgiving</td>
+                     <td>On</td>
+                     <td>1</td>
+                 </tr>
+             
+             </table>
+<button onClick="printPage()">Print Page</button>
+        
+        </div>
+
+    </body>
+</html>
+
