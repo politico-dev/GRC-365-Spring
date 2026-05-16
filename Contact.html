@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>About Me</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Faustina:ital@0;1&family=Felipa&family=Fredericka+the+Great&family=Kings&family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Faustina:ital@0;1&family=Felipa&family=Fredericka+the+Great&family=Kings&family=Merienda:wght@300..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Faustina:ital@0;1&family=Felipa&family=Fredericka+the+Great&family=Kings&family=Merienda:wght@300..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+        <style>
+            {
+                margin: 0;
+                padding: 0;
+            } body {
+                background-image: url(https://gifcity.carrd.co/assets/images/gallery96/dd30623c.png?v=5bf8fcf7);
+                background-repeat: repeat;
+                background-attachment: fixed;
+            } #page {
+                width: 90%;
+                margin: auto auto auto auto;
+            } h1 {
+                font: 48pt/1.4em "Fredericka the Great";
+                text-align: center;
+                margin-left: 24px auto;
+                color: ghostwhite;
+            } u1 {
+                width: 100%;
+                background: #000000;
+                display: grid;
+                grid-template: auto / repeat(4,auto);
+                margin-top: -17px;
+            } li {
+                height: 50px;
+                list-style: none;
+                text-align: center;
+                font: 20pt/1.4em "Rubik Vinyl";
+                color: ghostwhite;
+            } p {
+                font: 14pt/1.4em "Merriweather Sans";
+                color: ghostwhite;
+                width: 768px;
+                max-width: 90%;
+                margin: 16px 20px 16px 20px;
+            } .info {
+                background: #000000;
+                align-content: center;
+                justify-content: center;
+                position: relative;
+            } form {
+                background: black;
+                width: 600px;
+                min-height: 600px;
+                padding: 24px;
+                margin: 36px auto;
+                border-radius: 18px;
+                font: 14pt/1.2em "Merriweather Sans";
+                text-align: left;
+                color: ghostwhite;
+            } fieldset {
+                margin-top: 16px;
+                margin-bottom: 16px;
+            } #personal input, #submit {
+                width: 100px;
+                height: 24px;
+                margin-bottom: 20px;
+            } input[type="text"] {
+                width: 98%;
+                font: 14pt/1.4em "Merriweather Sans";
+                margin-top: 6px;
+                margin-bottom: 12px;
+            } input[type="radio"] {
+                font: 14pt/1.4em "Merriweather Sans";
+                margin-left: 6px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            } input[type="submit"] {
+                width: 100px;
+                height: 40px;
+                margin: 16px auto;
+                display: block;
+                border-radius: 12px;
+                font: 14pt/1.4em "Merriweather Sans";
+                background: ghostwhite;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>NoxiousNights</h1>
+        <u1>
+            <a href="About.html">
+                <li>About Me</li>
+            </a>
+            <a href="NoxPortfolio.html">
+                <li>Portfolio</li>
+            </a>
+            <a href="Prices.html">
+                <li>Pricing</li>
+            </a>
+            <a href="Contact.html">
+                <li>Contact</li>
+            </a>
+        </u1>
+        <form action="https://formsubmit.co/politico@unlv.nevada.edu" method="post">
+            <label>Name</label>
+            <br>
+            <input type="text">
+            <label>Email</label>
+            <input type="text">
+            <fieldset>
+                <p>I would like to:</p>
+                <input type="radio" name="service">
+                <label>Order a commission</label>
+                <br>
+                <input type="radio" name="service">
+                <label>Ask questions</label>
+                <br>
+                <input type="radio" name="service">
+                <label>Other</label>
+                <br>
+            </fieldset>
+            <label>Comments</label>
+            <textarea rows="5" cols="79"></textarea>
+            <input type="submit">
+        </form>
+    </body>
+</html>
